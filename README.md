@@ -1,57 +1,22 @@
 # Airline Passenger Satisfaction Prediction System 😌
 
-## ✈️ Industry Domain
-Aviation & Customer Experience 
+## 🙂 Overview
 
----
+This project focuses on predicting passenger satisfaction in the aviation and customer experience domain. By analyzing passenger demographics, travel details, service ratings, and flight experience attributes, I built a machine learning classification model to identify satisfied and dissatisfied airline passengers.
 
-## 🏢 About the Company
-SkyRoute Aviation is a passenger-focused airline company that uses customer experience analytics to improve travel services, understand passenger expectations, and strengthen customer satisfaction. The company collects feedback, service ratings, travel details, and operational information to identify service gaps, support better decisions, and deliver a smoother and more comfortable journey for passengers consistently.
+*The goal is to help airlines improve service quality, identify passenger pain points, support data-driven decisions, and strengthen overall customer satisfaction and loyalty.*
 
----
+-----
 
-## 🤔 Problem Statement
-SkyRoute Aviation receives thousands of passenger feedback and service records after every flight, but manually identifying dissatisfied passengers is difficult and time-consuming. Without early identification of dissatisfied customers, the airline may miss opportunities to address service issues, improve passenger experience, and reduce customer churn.
+## 💡 Problem Statement & Business Impact
 
----
+* Airlines collect thousands of passenger feedback records and service ratings, making it difficult to identify dissatisfied customers manually.
+* Poor service experiences can reduce passenger loyalty, damage brand reputation, and increase the risk of customer dissatisfaction.
+* Passenger satisfaction varies based on factors such as seat comfort, in-flight services, departure and arrival delays, travel class, and overall flight experience.
+* **Goal:** Develop a classification model that predicts passenger satisfaction (Satisfied or Neutral/Dissatisfied) using demographic, travel, service rating, and flight experience attributes.
+* **Business value:** Identifying dissatisfied passengers helps airlines recognize service gaps, prioritize improvements, enable proactive customer engagement, enhance passenger experience, and strengthen long-term customer loyalty.
 
-## 🎯 Objective
-Build a classification model that predicts passenger satisfaction using demographic, travel, service rating, and flight experience attributes. The goal is to identify dissatisfied passengers, improve service quality, support proactive customer engagement, and strengthen overall passenger experience for passengers today.
-
----
-
-## 📊 Data Overview
-
-![Airline Passenger Satisfaction](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
-
-* Dataset Size: 103,904 records
-* Features: 26 input variables
-* Target Variable: satisfaction: `neutral or dissatisfied': 0` & `satisfied': 1`
-
-### Key Features
-* Passenger demographics
-* Flight distance & travel class
-* Wi-Fi, seat comfort, cleanliness
-* Online booking & boarding experience
-* Delay-related metrics
-
-### Engineered Features
-* Total Delay
-* Delayed Flight
-* Average Service Rating
-* Long Haul Indicator
-
----
-
-## 🛠️ Tech Stack
-* Python
-* Pandas, NumPy
-* Matplotlib, Seaborn
-* Scikit-Learn
-* Streamlit
-* Pickle
-
----
+-----
 
 ## 📂 Folder Structure
 
@@ -78,6 +43,29 @@ Airline-Passenger-Satisfaction-Prediction-System
 
 ```
 
+-----
+
+## 📊 Data Overview
+
+![Airline Passenger Satisfaction](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
+
+* Dataset Size: 103,904 records
+* Features: 26 input variables
+* Target Variable: satisfaction: `neutral or dissatisfied': 0` & `satisfied': 1`
+
+### Key Features
+* Passenger demographics
+* Flight distance & travel class
+* Wi-Fi, seat comfort, cleanliness
+* Online booking & boarding experience
+* Delay-related metrics
+
+### Engineered Features
+* Total Delay
+* Delayed Flight
+* Average Service Rating
+* Long Haul Indicator
+
 ---
 
 ## 🔄 End-to-End Workflow & Approach
@@ -91,6 +79,16 @@ Airline-Passenger-Satisfaction-Prediction-System
 8. Performance Evaluation
 9. Model Serialization
 10. Streamlit Deployment
+
+---
+
+## 🛠️ Tech Stack
+* Python
+* Pandas, NumPy
+* Matplotlib, Seaborn
+* Scikit-Learn
+* Streamlit
+* Pickle
 
 ---
 
